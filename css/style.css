@@ -1,0 +1,30 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Syne+Mono&display=swap');
+@import url("components/container.css");
+@import url("components/cards.css");
+h1{
+
+	font-family: 'Syne Mono', monospace;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #f4f4f2;
+}
+
+#tuto{
+	font-family: 'Syne Mono', monospace;
+}
+
+@media (max-width: 760px) {
+ 	.container{
+ 		width:600px;
+ 	}
+ }
+
+@media (max-width: 500px){
+	.container{
+		width:400px;
+	}
+}
